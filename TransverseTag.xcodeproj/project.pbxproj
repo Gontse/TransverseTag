@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1308F86B00272B42BB7028FF /* Pods_TransverseTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738D72D1FB68A63BA3AA61D0 /* Pods_TransverseTag.framework */; };
 		90394CBF219B042A000FF316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90394CBE219B042A000FF316 /* AppDelegate.swift */; };
 		90394CC1219B042A000FF316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90394CC0219B042A000FF316 /* ViewController.swift */; };
 		90394CC4219B042A000FF316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90394CC2219B042A000FF316 /* Main.storyboard */; };
 		90394CC7219B042A000FF316 /* TransverseTag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90394CC5219B042A000FF316 /* TransverseTag.xcdatamodeld */; };
 		90394CC9219B042F000FF316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90394CC8219B042F000FF316 /* Assets.xcassets */; };
 		90394CCC219B042F000FF316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90394CCA219B042F000FF316 /* LaunchScreen.storyboard */; };
+		90394CD4219B1469000FF316 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90394CD3219B1469000FF316 /* MapViewController.swift */; };
+		90394CDC219B51A8000FF316 /* VenueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90394CDB219B51A8000FF316 /* VenueTableViewCell.swift */; };
+		905D1D7721A04DE800988D1B /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D1D7621A04DE800988D1B /* TransitionManager.swift */; };
+		905D1D7B21A07B0D00988D1B /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D1D7A21A07B0D00988D1B /* VenueDetailViewController.swift */; };
+		905D1D8321A15E7900988D1B /* VenueDetailIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D1D8221A15E7900988D1B /* VenueDetailIconCell.swift */; };
+		905D1D8521A1616B00988D1B /* VenueDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D1D8421A1616B00988D1B /* VenueDetailCell.swift */; };
+		90DFBA0E21A17BF70047E36D /* VenueImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFBA0D21A17BF70047E36D /* VenueImageTableViewController.swift */; };
+		90DFBA1021A1861C0047E36D /* VenueImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFBA0F21A1861C0047E36D /* VenueImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216A528F683FCC560EA4AB79 /* Pods-TransverseTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransverseTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransverseTag/Pods-TransverseTag.debug.xcconfig"; sourceTree = "<group>"; };
+		738D72D1FB68A63BA3AA61D0 /* Pods_TransverseTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransverseTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90394CBB219B042A000FF316 /* TransverseTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransverseTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90394CBE219B042A000FF316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90394CC0219B042A000FF316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		90394CC8219B042F000FF316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90394CCB219B042F000FF316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90394CCD219B042F000FF316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90394CD3219B1469000FF316 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		90394CDB219B51A8000FF316 /* VenueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTableViewCell.swift; sourceTree = "<group>"; };
+		905D1D7621A04DE800988D1B /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		905D1D7A21A07B0D00988D1B /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
+		905D1D8221A15E7900988D1B /* VenueDetailIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailIconCell.swift; sourceTree = "<group>"; };
+		905D1D8421A1616B00988D1B /* VenueDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailCell.swift; sourceTree = "<group>"; };
+		90DFBA0D21A17BF70047E36D /* VenueImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueImageTableViewController.swift; sourceTree = "<group>"; };
+		90DFBA0F21A1861C0047E36D /* VenueImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueImageCell.swift; sourceTree = "<group>"; };
+		912127637AE5FA51CEA4F16E /* Pods-TransverseTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransverseTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransverseTag/Pods-TransverseTag.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1308F86B00272B42BB7028FF /* Pods_TransverseTag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				90394CBD219B042A000FF316 /* TransverseTag */,
 				90394CBC219B042A000FF316 /* Products */,
+				90394CD6219B4E2B000FF316 /* Frameworks */,
+				BA0A2A3A161DBA3FEA8BE66B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +79,11 @@
 		90394CBD219B042A000FF316 /* TransverseTag */ = {
 			isa = PBXGroup;
 			children = (
+				905D1D8121A15D5200988D1B /* Utils */,
+				905D1D7E21A155D800988D1B /* Extensions */,
+				90394CDD219B51B0000FF316 /* Views */,
+				90394CD5219B1BC4000FF316 /* ViewControllers */,
 				90394CBE219B042A000FF316 /* AppDelegate.swift */,
-				90394CC0219B042A000FF316 /* ViewController.swift */,
 				90394CC2219B042A000FF316 /* Main.storyboard */,
 				90394CC8219B042F000FF316 /* Assets.xcassets */,
 				90394CCA219B042F000FF316 /* LaunchScreen.storyboard */,
@@ -67,6 +93,60 @@
 			path = TransverseTag;
 			sourceTree = "<group>";
 		};
+		90394CD5219B1BC4000FF316 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90394CD3219B1469000FF316 /* MapViewController.swift */,
+				90394CC0219B042A000FF316 /* ViewController.swift */,
+				905D1D7A21A07B0D00988D1B /* VenueDetailViewController.swift */,
+				90DFBA0D21A17BF70047E36D /* VenueImageTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90394CD6219B4E2B000FF316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738D72D1FB68A63BA3AA61D0 /* Pods_TransverseTag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90394CDD219B51B0000FF316 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90394CDB219B51A8000FF316 /* VenueTableViewCell.swift */,
+				905D1D8221A15E7900988D1B /* VenueDetailIconCell.swift */,
+				905D1D8421A1616B00988D1B /* VenueDetailCell.swift */,
+				90DFBA0F21A1861C0047E36D /* VenueImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		905D1D7E21A155D800988D1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		905D1D8121A15D5200988D1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				905D1D7621A04DE800988D1B /* TransitionManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BA0A2A3A161DBA3FEA8BE66B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				216A528F683FCC560EA4AB79 /* Pods-TransverseTag.debug.xcconfig */,
+				912127637AE5FA51CEA4F16E /* Pods-TransverseTag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90394CD0219B042F000FF316 /* Build configuration list for PBXNativeTarget "TransverseTag" */;
 			buildPhases = (
+				3606BDBB9D76848A97C79998 /* [CP] Check Pods Manifest.lock */,
 				90394CB7219B042A000FF316 /* Sources */,
 				90394CB8219B042A000FF316 /* Frameworks */,
 				90394CB9219B042A000FF316 /* Resources */,
+				C6CA56C7B6987B1F1B3B3D8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +181,11 @@
 				TargetAttributes = {
 					90394CBA219B042A000FF316 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -133,14 +220,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3606BDBB9D76848A97C79998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransverseTag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6CA56C7B6987B1F1B3B3D8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TransverseTag/Pods-TransverseTag-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RSLoadingView/RSLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransverseTag/Pods-TransverseTag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90394CB7219B042A000FF316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DFBA1021A1861C0047E36D /* VenueImageCell.swift in Sources */,
+				905D1D8521A1616B00988D1B /* VenueDetailCell.swift in Sources */,
+				905D1D8321A15E7900988D1B /* VenueDetailIconCell.swift in Sources */,
+				905D1D7B21A07B0D00988D1B /* VenueDetailViewController.swift in Sources */,
 				90394CC7219B042A000FF316 /* TransverseTag.xcdatamodeld in Sources */,
+				90DFBA0E21A17BF70047E36D /* VenueImageTableViewController.swift in Sources */,
+				905D1D7721A04DE800988D1B /* TransitionManager.swift in Sources */,
 				90394CC1219B042A000FF316 /* ViewController.swift in Sources */,
+				90394CDC219B51A8000FF316 /* VenueTableViewCell.swift in Sources */,
 				90394CBF219B042A000FF316 /* AppDelegate.swift in Sources */,
+				90394CD4219B1469000FF316 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +420,7 @@
 		};
 		90394CD1219B042F000FF316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216A528F683FCC560EA4AB79 /* Pods-TransverseTag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +439,7 @@
 		};
 		90394CD2219B042F000FF316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912127637AE5FA51CEA4F16E /* Pods-TransverseTag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

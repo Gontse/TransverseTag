@@ -13,10 +13,23 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var venuedict = [String:String]()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        
+        let backButtonImage = UIImage(named: "back")
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = backButtonImage
+        UINavigationBar.appearance().backIndicatorImage = backButtonImage
+
+        
+        //I concur that this is a cheat
+        //But I am i haven't update to swift 4.1 I cannot do the fancy "attribute" Stuff
+       UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(-1000, 0), for:UIBarMetrics.default)
+
         return true
     }
 
